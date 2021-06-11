@@ -22,7 +22,7 @@ pip install pyrpipe
 SyntaxError: invalid syntax
 
 
-### Load the Packages
+## Load the Packages
 Numpy: Fundamental package for adding support for large, multidimensional arrays and matrics, along with a large collection of high level mathematical functions
 
 Pyrpipe: RNA-Seq workflows
