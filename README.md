@@ -25,11 +25,11 @@ SyntaxError: invalid syntax
 ## Load the Packages
 Numpy: Fundamental package for adding support for large, multidimensional arrays and matrics, along with a large collection of high level mathematical functions
 
-Pyrpipe: RNA-Seq workflows
+Pyrpipe: RNA-Seq pipeline analysis package
 
 Pandas: Data manipulation and analysis
 
-Seaborn: DATA visualization library based on matplotlib
+Seaborn: Data visualization library based on matplotlib
 
 ``` ## Import all packages needed
 from pyrpipe import sra, qc, mapping, assembly
