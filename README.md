@@ -14,12 +14,13 @@ To answer this scientific question and test my hypothesis, I researched differen
 
 Theoretically, I would download the DNA sequences of each test group (ERD, NERD, and Control) and import them here to undergo RNA-seq. However, due to complications preventing me from installing pyrpipe to perform RNA-seq, I manually transferred the data from Table 4 for the expression of tight junction-related components in esophageal mucosa onto my Jupyter Notebook here in order to create my heatmap.
 
-#Download package
+``` #Download package
 pip install pyrpipe
   File "<ipython-input-19-f4db4a75dc3a>", line 2
     pip install pyrpipe
         ^
 SyntaxError: invalid syntax
+```
 
 
 ## Load the Packages
