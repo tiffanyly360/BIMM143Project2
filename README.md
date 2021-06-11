@@ -69,7 +69,7 @@ QC.perform_qc(tg, **tgOpts)
 #Set parameter for star function
 starParams = {'--outFilterType':'BySJout','--outSAMtype':'BAM SortedByCoordinate'}
 
-#Read alignment to determine which RNA seq match
+#Read alignment to determine which RNA sequences match
 star = mapping.Star(index = 'index')
 
 #Transcript assembly
