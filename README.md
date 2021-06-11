@@ -42,7 +42,7 @@ After loading the necessary packages, we can perform RNA-sequencing. RNA-sequenc
 
 In the cell below, I will write the theoretical process of coding for RNA-seq.
 
-'''#Import and create a list of DNA sequences from database
+''' #Import and create a list of DNA sequences from database
 runs = ['ERD seq' , 'NERD seq', 'CONTROL seq']
 
 study = 'study'
@@ -77,7 +77,7 @@ st = assembly.Stringtie()
 for QC in sraQC:
 
 bam = star.perform_alignment(QC, **starParams)
-st.perform_assembly(bam, reference_gtf = 'ref.gtf')'''
+st.perform_assembly(bam, reference_gtf = 'ref.gtf') '''
 
 ## Plotting the Results
 In the code below, I transferred Table 4 data (https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-12-128) onto my Jupyter Notebook to organize the data prior to plotting the heatmap.
