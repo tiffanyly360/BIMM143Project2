@@ -1,6 +1,6 @@
 # BIMM143Project2
 
-Scientific Question: What gene expression profiles change that result in gastro-esophageal reflux disease?
+###Scientific Question: What gene expression profiles change that result in gastro-esophageal reflux disease?
 Gastro-esoaphageal reflux disease (GERD) is a chronic digestive disease featuring acid reflux, eosinophilic esophagitic, disruption of tight junction proteins, and cytokines. This disease is divided into two categories---erosive and non-erosive reflux; however, all include symptoms of heartburn and regurgitation (Okimoto et. al 2018, Monkemuller et. al 2012).
 
 Tight junction genes (Occludin, Claudin-1,-2, ZO-1,-2) are responsible for encoding tight junction proteins of the esophageal mucosa in order to form an intercellular barrier between epithelial cells for regulation of movement across the epithluem (Anderson et. al 2009). Therefore, it is hypothesized that impairment of these tight junction proteins and lack of gene expression lead to esophageal hypersensitvity to acid and the development of GERDs.
@@ -9,7 +9,7 @@ Many studies have investigated the strength of association between tight junctio
 
 "BMC Gastroenterology is an open access, peer-reviewed journal that considers articles on all aspects of the prevention, diagnosis and management of gastrointestinal and hepatobiliary disorders, as well as related molecular genetics, pathophysiology, and epidemiology."
 
-Scientific Hypothesis: If tight junction component Claudin-1 gene is overly expressed, gastro-esophageal reflux disease symptoms are more likely to occur.
+###Scientific Hypothesis: If tight junction component Claudin-1 gene is overly expressed, gastro-esophageal reflux disease symptoms are more likely to occur.
 To answer this scientific question and test my hypothesis, I researched different genes associated with GERDs from the BMC Gastroenterology website. The paper that caught my eye the most "Role of Tight Junction Proteins in Gastreoesophageal Reflux Disease" (https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-12-128), whose study investigated the expression pattern of tight junction proteins (Occludin, Claudin-1,-2, ZO-1,-2) via analysis by histopathy, immunohistochemsitry, and quantitative reverse-transcription polymerase chain reaction.
 
 Theoretically, I would download the DNA sequences of each test group (ERD, NERD, and Control) and import them here to undergo RNA-seq. However, due to complications preventing me from installing pyrpipe to perform RNA-seq, I manually transferred the data from Table 4 for the expression of tight junction-related components in esophageal mucosa onto my Jupyter Notebook here in order to create my heatmap.
