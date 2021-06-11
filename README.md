@@ -101,10 +101,6 @@ import numpy as np
 #Create DataFrame to organize Research dictionary
 print(pd.DataFrame(research))
 ​
-   claudin-1  claudin-2  occludin    ZO-1   ZO-2
-0      0.078   0.000038     0.041  0.0060  0.011
-1      0.150   0.000200     0.060  0.0081  0.019
-2      0.200   0.000083     0.035  0.0077  0.021
 
 #Create a dataset with appropriate gene label for each column
 CNE = pd.DataFrame(research, columns=["claudin-1","claudin-2","occludin","ZO-1","ZO-2"])
