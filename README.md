@@ -112,7 +112,6 @@ CNE = pd.DataFrame(research, columns=["claudin-1","claudin-2","occludin","ZO-1",
 #Plot heatmap with set label for Y-Axis ticks
 sns.heatmap(CNE, yticklabels=["Control", "NERD", "ERD"])
 sns.color_palette("crest", as_cmap=True)
-<matplotlib.colors.ListedColormap at 0x11ea39eb0>
 
 ### Analysis of the Results
 The plot above reveals the level of tight junction gene (Claudin-1,-2, Occludin, Zo-1, -2) expression between patients with erosive reflux disease, non-erosive reflux disease, and a healthy control group. According to the plot, the lighter color the cell on the matrix, the greater the gene expression, and vice versa. Claudin-1 gene expression demonstrates the greatest increase in gene expression associated with an increase in GERD symptoms---control 0.078, NERD 0.150, and ERD 0.200. ZO-2 also demonstrates an increase in expression with an increase in GERD symptoms---control 0.011, NERD 0.019, and ERD 0.021. The remaining tight junction proteins (Claudin-2, Occludin-2, and ZO-1) demonstrates no significant positive association, as shown on the plot with the lack of color gradient. Thus, these results support my hypothesis gastro-esophageal symptoms will more likely occur with Claudin-1 gene over expression.
