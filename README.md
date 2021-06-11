@@ -45,7 +45,7 @@ After loading the necessary packages, we can perform RNA-sequencing. RNA-sequenc
 In the cell below, I will write the theoretical process of coding for RNA-seq.
 
 ``` #Import and create a list of DNA sequences from database
-runs = ['ERD seq' , 'NERD seq', 'CONTROL seq']
+runs = ['ERDseq' , 'NERDseq', 'CONTROLseq']
 
 study = 'study'
 
