@@ -36,7 +36,8 @@ from pyrpipe import sra, qc, mapping, assembly
 import seaborn as sns
 import pandas as pd
 import numpy as np
-Perform Bioinformatics Analyses
+
+## Perform Bioinformatics Analyses
 After loading the necessary packages, we can perform RNA-sequencing. RNA-sequencing is a bioinformatics technique that analyzes the transcriptome of gene expression patterns encoded, in which in this project, we aim to analyze the level of gene expression of specific tight junction proteins in relation to patients with differing levels of gastro-esophageal reflux disease symptoms. To perform RNA-sequencing, the DNA sequences acquired are transcribed into mRNA, which are then translated into proteins. By quantifying the amount of mRNA, we can interpret the level of each gene expression.
 
 In the cell below, I will write the theoretical process of coding for RNA-seq.
