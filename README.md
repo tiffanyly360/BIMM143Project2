@@ -65,6 +65,7 @@ tg = qc.Trimgalore()
 for QC in sraQC:
 
 QC.perform_qc(tg, **tgOpts)
+  
 #Set parameter for star function
 starParams = {'--outFilterType':'BySJout','--outSAMtype':'BAM SortedByCoordinate'}
 
@@ -97,7 +98,7 @@ zo2 = [0.011, 0.019, 0.021]
 #Create dictionary for gene expression data as Research
 research = {"claudin-1":claudin1,"claudin-2":claudin2,"occludin":occludin,"ZO-1":zo1,"ZO-2":zo2}
 ​
-#Import all packagaes needed
+#Import all packages needed
 import seaborn as sns
 import pandas as pd
 import numpy as np
